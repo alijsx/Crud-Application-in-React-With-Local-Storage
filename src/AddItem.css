@@ -1,0 +1,24 @@
+.add-item {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .add-item input {
+    margin-right: 1rem;
+    width: 70%;
+  }
+  
+  .add-item button {
+    width: 30%;
+  }
+  
+  @media (max-width: 576px) {
+    .add-item input {
+      width: 60%;
+    }
+  
+    .add-item button {
+      width: 40%;
+    }
+  }
+  
